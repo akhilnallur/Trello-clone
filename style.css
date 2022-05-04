@@ -1,0 +1,627 @@
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Charlie Display', sans-serif;
+}
+
+body {
+    background-color: #efedff;
+    transition: 1s;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-scroll-effect{
+    background-color: #ffff;
+}
+.navigation{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    transition: 1s;
+    
+}
+
+.scrolling-active{
+    background-color: #ffff;
+    box-shadow: 0 3px 10px 2px rgba(0, 0, 0, .1);
+}
+
+
+.navbar {
+    width: 98%;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.leftnav {
+    width: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.leftnav h5 {
+    font-size: 32px;
+    text-align: start;
+    font-weight: 700;
+    margin-top: -3px;
+    color: #091E42;
+}
+
+.rightnav {
+    width: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightnav a {
+    text-decoration: none;
+    color: #0065ff;
+    font-size: 1.1rem;
+}
+
+.rightnav button {
+    width: 5rem;
+    height: 2.3rem;
+    background-color: #0065ff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.rightnav button:hover {
+    background-color: #0453ca;
+}
+
+.cont-box-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: transparent;
+}
+
+.discription {
+    /* background-color: rgb(247, 215, 167); */
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.discription h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #091E42;
+    margin-top: 6rem;
+}
+
+.discription p {
+    font-size: 18px;
+    color: #091E42;
+    margin-top: 1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+}
+
+.singup-box {
+    width: 39rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.singup-box button {
+    width: 254px;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0065ff;
+    font-size: 1.1rem;
+    font-weight: 520;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.singup-box button:hover {
+    background-color: #0453ca;
+}
+
+.singup-box input {
+    width: 350px;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(210, 210, 210);
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    margin-right: 0.rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.image-one img {
+    width: 28rem;
+    margin-left: 10rem;
+}
+
+.cont-box-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+
+}
+
+.cont-box-two h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #091E42;
+}
+
+.cb-two-p {
+    font-size: 20px;
+    color: #091E42;
+    margin-top: 1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+}
+
+.start-doing {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: #0065ff;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #0065ff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.start-doing:hover {
+    background-color: #0065ff;
+    color: #E6FCFF;
+}
+
+.cont-box-two img {
+    width: 1110px;
+    margin-top: 2rem;
+}
+
+.partners {
+    width: 40rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cont-box-three {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7rem;
+}
+
+.cb-three-text {
+    width: 37rem;
+    margin-left: 15rem;
+}
+
+.cb-three-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #091E42;
+}
+
+.cb-three-text p {
+    font-size: 20px;
+    color: #091E42;
+    margin-top: 1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+}
+
+.cont-box-common {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7rem;
+
+}
+
+.cb-common-img img {
+    width: 27rem;
+    margin-top: 1.5rem;
+}
+
+.cb-common-text {
+    width: 43rem;
+    margin-left: 2rem;
+}
+
+.cb-common-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #091E42;
+    margin-top: 1rem;
+}
+
+.para-content {
+    font-size: 20px;
+    color: grey;
+    margin-top: 1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+}
+
+.learn-more {
+    width: 9.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: #091E42;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.cont-box-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.cb-five-centent {
+    /* background-color: #0065ff; */
+    width: 70rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(131, 131, 131);
+}
+
+.trello-tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.cb-trello-img img {
+    width: 7rem;
+}
+
+.cb-trello-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12.5rem;
+}
+
+.cb-trello-text h1 {
+    font-size: 1.5rem;
+}
+
+.cb-trello-text p {
+    font-size: 20px;
+    color: #091E42;
+    line-height: 2rem;
+    /* letter-spacing: 0.09rem; */
+}
+
+.cb-trello-text button {
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 5px;
+    border-color: #0065ff;
+    border-width: 1px;
+    color: #0065ff;
+    box-shadow: none;
+    transition: 0.4s;
+    font-size: 17px;
+    margin-top: 1.5rem;
+}
+
+.cb-trello-text button:hover {
+    background-color: #0065ff;
+    color: #ffff;
+
+}
+
+.cont-box-six {
+    width: 100%;
+    height: 30rem;
+    background-color: #E6FCFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.cb-six-upper {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ebay {
+    width: 20rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+}
+
+.ebay :nth-child(3) {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #091E42;
+}
+
+.ebay img {
+    width: 12rem;
+}
+
+.cb-six-p {
+    margin-top: 5rem;
+    color: #091E42;
+}
+
+.quote {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7rem;
+    margin-right: 12rem;
+
+
+}
+
+.quote h4 {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.quote i {
+    margin-right: auto;
+
+}
+
+.autor-name {
+    margin-top: 2rem;
+}
+
+.designation {
+    font-size: 1.2rem;
+}
+
+.author {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cb-six-line {
+    width: 70%;
+    border-top: 4px solid;
+    border-color: #091E42;
+    margin-top: 3rem;
+
+}
+
+.icon {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 13rem;
+    margin-top: 1rem;
+
+}
+
+.icon button {
+    background-color: rgb(33, 33, 33);
+    width: 35px;
+    height: 35px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    color: #ffff;
+    transition: 0.3s;
+}
+
+.icon button:hover {
+    background-color: #464646;
+}
+
+.dot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 8rem;
+    margin-left: 1rem;
+    font-size: 10px;
+
+
+}
+
+.dot :nth-child(1) {
+    color: #5f5656;
+    transition: 0.2s;
+}
+
+.dot :nth-child(1):hover {
+    background-color: #464646;
+    border: none;
+}
+
+.cont-box-seven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.cb-seven-content {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 80%;
+    height: 20rem;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cb-seven-content h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.email input {
+    width: 20rem;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: none;
+    border-color: #c0c0c0;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+
+}
+
+.email button {
+    width: 10rem;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    background-color: #00aff4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.email button:hover {
+    background-color: #0287a5;
+}
+
+.playstore {
+
+    width: 47rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 10.2rem;
+}
+
+.playstore img {
+    width: 171px;
+    cursor: pointer;
+}
+
+.cb-seven-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.playstore p {
+    font-size: 18px;
+    color: #091E42;
+    line-height: 2.1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#selection {
+    width: 11rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: solid;
+    border-color: #e8e0e0;
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+    margin-top: 2rem;
+}
